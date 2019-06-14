@@ -1,6 +1,6 @@
 *注意！作者电脑型号为HP Envy-13 ad024TU，其中部分文件不建议大家直接用于其他型号的电脑。若使用本仓库中文件导致系统故障或崩溃，作者本人概不负责。
 
-###欢迎！
+#欢迎！
 
 建立本仓库主要用于以下几个目的：
 
@@ -23,12 +23,12 @@
 
 致谢：
 
-[RehabMan] (https://github.com/RehabMan)
+[RehabMan](https://github.com/RehabMan)
 
-[黑果小兵] (https://blog.daliansky.net)
+[黑果小兵](https://blog.daliansky.net)
 
-[IT密码] (https://www.itpwd.com)
+[IT密码](https://www.itpwd.com)
 
-[darkhandz] (https://github.com/darkhandz)
+[darkhandz](https://github.com/darkhandz)
 
 以及其他给予过我帮助的网友们😘
