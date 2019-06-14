@@ -1,6 +1,6 @@
 *注意！作者电脑型号为HP Envy-13 ad024TU，其中部分文件不建议大家直接用于其他型号的电脑。若使用本仓库中文件导致系统故障或崩溃，作者本人概不负责。
 
-#欢迎！#
+欢迎！
 
 建立本仓库主要用于以下几个目的：
 
@@ -14,12 +14,17 @@
 
 附：作者电脑配置
 
-型号：HP Envy-13 ad024TU
+型号|HP Envy-13 ad024TU
 
-- CPU：Intel Core i7-7500U(2.7GHz)
-- RAM：8GB DDR4
-- 硬盘：Intel 600P 360GB
-- 网卡：Intel 7265NGW
+CPU|Intel Core i7-7500U(2.7GHz)
+
+RAM|8GB DDR4
+
+硬盘|Intel SSDPEKKF360G7H 360G
+
+网卡|DW1560（非原配）
+
+声卡|ALC295
 
 致谢：
 
