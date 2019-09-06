@@ -19,7 +19,7 @@
 | CPU  | Intel Core i7-7500U(2.7GHz)                        |
 | RAM  | 8GB DDR4                                           |
 | 显卡 | Intel HD620                                        |
-| 硬盘 | ~~Intel SSDPEKKF360G7H 360G~~ （已更换为WD 500sn） |
+| 硬盘 | ~~Intel SSDPEKKF360G7H 360G~~ （已更换为WD SN500） |
 | 网卡 | ~~Intel 7265NGW~~（已更换为BCM94352Z）             |
 | 声卡 | ALC295                                             |
 
