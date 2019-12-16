@@ -147,6 +147,8 @@
 				<true/>
 				<key>FixSBUS</key>
 				<true/>
+				<key>FixShutdown</key>
+				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -752,6 +754,8 @@
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
+			<false/>
+			<key>Mirror</key>
 			<false/>
 		</dict>
 		<key>PlayAsync</key>
