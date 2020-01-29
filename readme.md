@@ -27,6 +27,8 @@
 
 致谢：
 
+[Acidanthera](https://github.com/acidanthera)
+
 [RehabMan](https://github.com/RehabMan)
 
 [黑果小兵](https://blog.daliansky.net)
