@@ -33,6 +33,8 @@
 
 [黑果小兵](https://blog.daliansky.net)
 
+[SlientSliver](https://github.com/SilentSliver)
+
 [IT密码](https://www.itpwd.com)
 
 [darkhandz](https://github.com/darkhandz)
