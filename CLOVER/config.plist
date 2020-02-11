@@ -12,8 +12,11 @@
 				<true/>
 				<key>AddPNLF</key>
 				<true/>
+<<<<<<< HEAD
 				<key>FixSBUS</key>
 				<true/>
+=======
+>>>>>>> parent of f130794... update for 10.15.2
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -565,10 +568,13 @@
 			<integer>500</integer>
 			<key>Enabled</key>
 			<false/>
+<<<<<<< HEAD
 			<key>Mirror</key>
 			<false/>
 			<key>Speed</key>
 			<integer>8</integer>
+=======
+>>>>>>> parent of f130794... update for 10.15.2
 		</dict>
 		<key>PlayAsync</key>
 		<true/>
