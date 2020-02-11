@@ -36,6 +36,14 @@
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>2600</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>3200</integer>
 				<key>port-count</key>
 				<data>
 				EAAAAA==
@@ -54,7 +62,11 @@
 					<key>HS02</key>
 					<dict>
 						<key>UsbConnector</key>
+<<<<<<< HEAD
 						<integer>9</integer>
+=======
+						<integer>3</integer>
+>>>>>>> parent of 6dba3ea... update
 						<key>port</key>
 						<data>
 						AgAAAA==
