@@ -12,11 +12,8 @@
 				<true/>
 				<key>AddPNLF</key>
 				<true/>
-<<<<<<< HEAD
 				<key>FixSBUS</key>
 				<true/>
-=======
->>>>>>> parent of f130794... update for 10.15.2
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -386,7 +383,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall brcmfx-country=#a nv_disable=1 slide=0 gfxrst=1</string>
+		<string>-lilubetaall brcmfx-country=#a nv_disable=1 slide=0 gfxrst=1 lilucpu=8</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -427,7 +424,7 @@
 			<true/>
 		</dict>
 		<key>HDMIInjection</key>
-		<true/>
+		<false/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
@@ -448,11 +445,11 @@
 				<key>AAPL,GfxYTile</key>
 				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAWWQ==</data>
+				<data>AAAWGQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device-id</key>
-				<data>FlkAAA==</data>
+				<data>FhkAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
@@ -486,7 +483,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
-				<string>Intel UHD Graphics 620</string>
+				<string>Intel HD Graphics 620</string>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
@@ -505,7 +502,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -568,13 +565,10 @@
 			<integer>500</integer>
 			<key>Enabled</key>
 			<false/>
-<<<<<<< HEAD
 			<key>Mirror</key>
 			<false/>
 			<key>Speed</key>
 			<integer>8</integer>
-=======
->>>>>>> parent of f130794... update for 10.15.2
 		</dict>
 		<key>PlayAsync</key>
 		<true/>
@@ -592,6 +586,25 @@
 		<key>Theme</key>
 		<string>Simple</string>
 	</dict>
+	<key>Graphics</key>
+	<dict>
+		<key>EDID</key>
+		<dict>
+			<key>Custom</key>
+			<data>AP///////wAw5HYFAAAAAAAaAQSdHRF4AiQVo1lVoCcKUFQAAAABAQEBAQEBAQEBAQEBAQEBLjaAoHA4H0AwIDUAJqUQAAAZHySAoHA4H0AwIDUAJqUQAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAMM/8KPJYSECiWAAAAACk=</data>
+			<key>Inject</key>
+			<true/>
+		</dict>
+		<key>Inject</key>
+		<dict>
+			<key>Intel</key>
+			<true/>
+			<key>NVidia</key>
+			<false/>
+		</dict>
+		<key>ig-platform-id</key>
+		<string>0x19160000</string>
+	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
@@ -600,20 +613,6 @@
 		<true/>
 		<key>KextsToPatch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Disable AppleIntelLpssI2C</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>SU9LaXQ=</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelLpssI2C</string>
-				<key>Replace</key>
-				<data>SU9LaXM=</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Disable AppleIntelLpssI2CController</string>
