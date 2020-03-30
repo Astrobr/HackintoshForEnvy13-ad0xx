@@ -12,6 +12,8 @@
 				<true/>
 				<key>AddPNLF</key>
 				<true/>
+				<key>FixAirport</key>
+				<true/>
 				<key>FixSBUS</key>
 				<true/>
 			</dict>
@@ -383,7 +385,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall brcmfx-country=#a nv_disable=1 slide=0 gfxrst=1 lilucpu=8</string>
+		<string>-lilubetaall brcmfx-country=#a nv_disable=1 slide=0 gfxrst=1 lilucpu=8 alcid=3</string>
+		<key>CustomLogo</key>
+		<string>Apple</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -391,7 +395,7 @@
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NoEarlyProgress</key>
-		<false/>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>StrictHibernate</key>
@@ -552,6 +556,8 @@
 				</dict>
 			</array>
 		</dict>
+		<key>CustomIcons</key>
+		<true/>
 		<key>Hide</key>
 		<array>
 			<string>Recovery</string>
@@ -559,6 +565,8 @@
 			<string>Leagacy HD3</string>
 			<string>Leagacy HD4</string>
 		</array>
+		<key>Language</key>
+		<string>en-US:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -583,6 +591,8 @@
 			<key>Tool</key>
 			<false/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>Simple</string>
 	</dict>
