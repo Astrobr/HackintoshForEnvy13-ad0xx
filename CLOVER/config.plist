@@ -13,7 +13,7 @@
 				<key>AddPNLF</key>
 				<true/>
 				<key>FixAirport</key>
-				<true/>
+				<false/>
 				<key>FixSBUS</key>
 				<true/>
 			</dict>
@@ -387,7 +387,7 @@
 		<key>Arguments</key>
 		<string>-lilubetaall brcmfx-country=#a nv_disable=1 slide=0 gfxrst=1 lilucpu=8 alcid=3</string>
 		<key>CustomLogo</key>
-		<string>Apple</string>
+		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -395,7 +395,7 @@
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NoEarlyProgress</key>
-		<true/>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>StrictHibernate</key>
@@ -593,6 +593,8 @@
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
+		<key>ShowOptimus</key>
+		<false/>
 		<key>Theme</key>
 		<string>Simple</string>
 	</dict>
