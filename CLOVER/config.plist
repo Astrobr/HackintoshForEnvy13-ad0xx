@@ -565,6 +565,8 @@
 			<string>Leagacy HD3</string>
 			<string>Leagacy HD4</string>
 		</array>
+		<key>KbdPrevLang</key>
+		<false/>
 		<key>Language</key>
 		<string>en-US:0</string>
 		<key>Mouse</key>
