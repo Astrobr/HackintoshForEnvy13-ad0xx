@@ -395,7 +395,7 @@
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NoEarlyProgress</key>
-		<false/>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>StrictHibernate</key>
@@ -403,7 +403,7 @@
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
-		<false/>
+		<string>Yes</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -516,7 +516,7 @@
 			<array>
 				<dict>
 					<key>CustomLogo</key>
-					<string>Theme</string>
+					<false/>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
@@ -536,7 +536,7 @@
 				</dict>
 				<dict>
 					<key>CustomLogo</key>
-					<string>Theme</string>
+					<false/>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
@@ -557,7 +557,7 @@
 			</array>
 		</dict>
 		<key>CustomIcons</key>
-		<true/>
+		<false/>
 		<key>Hide</key>
 		<array>
 			<string>Recovery</string>
@@ -581,7 +581,7 @@
 			<integer>8</integer>
 		</dict>
 		<key>PlayAsync</key>
-		<true/>
+		<false/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
